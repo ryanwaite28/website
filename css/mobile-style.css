@@ -1,0 +1,62 @@
+/* New Mobile Style */
+
+@media only screen and (max-width: 900px) {
+
+	#main {
+	  height: auto;
+		z-index: 100;
+	  width: 100%;
+	  float: none;
+		position: fixed;
+		margin: 0px;
+		padding: 0px;
+		padding-bottom: 10px;
+	}
+	#main-ht {
+	  text-align: center;
+	  font-weight: bold;
+	  margin: 0px;
+		height: 50px;
+		line-height: 50px;
+		vertical-align: middle;
+	}
+
+	#drop-arrow {
+    display: block;
+		margin-bottom: 5px;
+	}
+
+	#contents {
+	  height: auto;
+	  width: 100%;
+	  float: none;
+	  overflow-y: auto;
+		padding-top: 100px;
+	}
+
+	#c-img {
+
+	  width: 150px;
+	  margin-bottom: 10px;
+	}
+
+	#main-links {
+
+	  /*padding: 0px;
+	  margin: 0px;
+	  width: 100%;
+	  text-align: center;*/
+	}
+
+	#main-bio {
+		display: none;
+	  /*text-align: center;
+	  margin: 20px 0px;
+	  padding: 0px 20px;*/
+	}
+
+	.slick-track {
+	  height: 35vh;
+	}
+
+}
