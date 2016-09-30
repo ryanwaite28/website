@@ -1,10 +1,10 @@
 // New Script //
 
-$('head').append('<link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">');
-$('head').append('<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick.css">');
-$('head').append('<link rel="stylesheet" type="text/css" href="http://kenwheeler.github.io/slick/slick/slick-theme.css">');
-$('head').append('<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>');
-$('head').append('<script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://fontawesome.io/assets/font-awesome/css/font-awesome.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">');
+$('head').append('<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>');
+$('head').append('<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>');
 
 /* ---------------------------- */
 
@@ -15,8 +15,8 @@ $(document).ready(function() {
 	window.currentImage = 0;
 	window.mainLinks = $("#main-links");
 	window.images = [
-		"http://i.imgur.com/ziHj1qj.png",
-		"http://i.imgur.com/7Kr2nKz.jpg",
+		"https://i.imgur.com/ziHj1qj.png",
+		"https://i.imgur.com/7Kr2nKz.jpg",
 	];
 
 	/* cImg.attr('src', images[currentImage]);
