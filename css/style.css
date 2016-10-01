@@ -7,6 +7,10 @@
 
 */
 
+hr {
+  border-color: grey;
+}
+
 #main {
   height: 100vh;
   width: 300px;
@@ -21,7 +25,7 @@
   float: right;
   overflow-y: scroll;
   z-index: 10000;
-  background: lightgrey;
+  background: #f2f2f2;
 }
 #contents.container-fluid {
   z-index: 10000;
@@ -116,5 +120,47 @@
   height: 100%;
 }
 .slick-track {
-    height: 45vh;
+    height: 47vh;
+}
+
+.emp-1 {
+  font-size: 21px;
+  margin-bottom: 20px;
+  width: 825px;
+  max-width: 90%;
+}
+
+.m-frame {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width: 475px;
+    max-width: 95%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+.m-frame-2 {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width: 475px;
+    max-width: 95%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+#bta {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 100000;
+    display: none;
+}
+#bta:hover, #bio-chev:hover {
+    color: green;
 }

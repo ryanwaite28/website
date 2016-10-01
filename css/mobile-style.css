@@ -1,6 +1,6 @@
 /* New Mobile Style */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 925px) {
 
 	#main {
 	  height: auto;
@@ -27,7 +27,7 @@
 	}
 
 	#contents {
-	  height: auto;
+	  /*height: calc(100vh - 100px);*/
 	  width: 100%;
 	  float: none;
 	  overflow-y: auto;
@@ -49,10 +49,16 @@
 	}
 
 	#main-bio {
-		display: none;
+
 	  /*text-align: center;
 	  margin: 20px 0px;
 	  padding: 0px 20px;*/
+	}
+
+	#bta {
+	    bottom: inherit;
+			top: 10px;
+	    left: 10px;
 	}
 
 	.slick-track {

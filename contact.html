@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>Pearadox | Contact</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="https://ryanwaite28.github.io/my-cdn/css/emerald.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" media="only screen and (max-width: 925px)" href="css/mobile-style.css">
+		<link rel="icon" type="image/png" size="20x20" href="img/icon.png"/>
+		<script src="https://ryanwaite28.github.io/my-cdn/js/jquery.js"></script>
+		<script src="https://ryanwaite28.github.io/my-cdn/js/angular.js"></script>
+		<script src="https://ryanwaite28.github.io/my-cdn/js/bootstrap.js"></script>
+		<script src="https://ryanwaite28.github.io/my-cdn/js/emerald.js"></script>
+		<script src="js/script.js"></script>
+
+	</head>
+
+	<body class="transition" ng-app="myApp" ng-controller="masterCtrl">
+
+		<div class="transition" id="main">
+
+			<h1 id="main-ht">PEARADOX</h1>
+			<img data-toggle="collapse" data-target="#main-collapse" class="invert transition" id="drop-arrow" src="http://i.imgur.com/2aUnyQE.png">
+
+			<div class="collapse in" id="main-collapse">
+				<img class="middlr" id="c-img" src="https://i.imgur.com/7Kr2nKz.jpg"/>
+				<i title="See Bio" id="bio-chev" style="display: block;" class="transition text-center fa fa-chevron-circle-down invert" aria-hidden="true" data-toggle="collapse" data-target="#bio-collapse"></i>
+				<div class="collapse" id="bio-collapse">
+					<p class="text-center" style="color: white;"><strong>Bio</strong></p>
+					<p id="main-bio">Audio Engineer, Music Producer, Web Developer,
+					And Everything Artistic. I Mix &amp; Master Music, And Create Websites!
+					<br><br>
+					If You Want A Song Mixed/Mastered Or A Website Made, Please Contact Me!
+					I'm Looking To Work With Many People And Build A Brand!</p>
+				</div>
+				<br>
+				<ul id="main-links"></ul>
+			</div>
+
+
+		</div>
+
+		<!--  -->
+
+		<div class="transition" id="contents">
+			<div class="transition container-fluid">
+
+				<h2 id="contents-toptext"><strong>Contact</strong></h2>
+
+				<div class="row">
+					<div class="col-md-12">
+
+						<p class="emp-1 text-center middlr">If you would like for me to mix and/or master a song,
+						I'll gladly work on it! Just Send Me An Email Below And I'll Work Something
+						Out With You!</p>
+
+						<hr>
+
+						<p class="text-center">You Can <a href="mailto:ryanwaite28@gmail.com" title="Send Email - ryanwaite28@gmail.com">Click Here</a> To Send An Email
+						<br><br>
+						<b>Email</b>: <a href="mailto:ryanwaite28@gmail.com" title="Send Email - ryanwaite28@gmail.com">ryanwaite28@gmail.com</a>
+						<br>
+						<b>Phone</b>: 240-271-7889 | (Text First)
+						</p>
+
+						<br><br><br>
+
+						<p class="text-center">You Can Use The Form Below To Send An Email</p>
+						<br>
+
+						<div id="form">
+							<input type="text" style="width: 300px;" name="uname" class="middlr" id="f-name" placeholder="Name"/><br>
+							<input type="email" style="width: 300px;" name="uemail" class="middlr" id="f-email" placeholder="Email"/><br>
+							<input type="text" style="width: 300px;" name="usubject" class="middlr" id="f-subject" placeholder="Subject"/><br>
+							<textarea name="umsg" style="width: 300px; height: 150px;" class="middlr" id="f-message" placeholder="Message"></textarea><br>
+							<input class="middlr" type="button" value="Send" id="send-form-btn"/>
+						</div>
+						<br>
+						<p id="msg" class="emp-1 text-center middlr"></p>
+					</div>
+				</div>
+
+				<br>
+
+			</div>
+		</div>
+
+		<!--  -->
+
+		<i id="bta" title="Back To Top ^" class="fa fa-arrow-circle-up transition invert rotate" aria-hidden="true" style="display: inline;"></i>
+
+		<script src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.autoplay').slick({
+		  		slidesToShow: 1,
+		  		slidesToScroll: 1,
+		  		autoplay: true,
+		  		autoplaySpeed: 2000,
+				});
+			})
+		</script>
+
+	</body>
+
+</html>
